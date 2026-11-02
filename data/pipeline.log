@@ -33,3 +33,10 @@
 2026-11-01 10:50:28,027 | INFO | Quality check passed
 2026-11-01 10:50:28,031 | INFO | History saved: 10 rows
 2026-11-01 10:50:28,031 | INFO | Finish
+2026-11-02 11:44:00,840 | INFO | --- Channel: kanat ---
+2026-11-02 11:44:00,840 | INFO | Start: channel UCINGv5BTWX46SKotKLWPn4Q
+2026-11-02 11:44:01,177 | INFO | Video IDs collected: 2
+2026-11-02 11:44:01,282 | INFO | Clean table: 2 rows
+2026-11-02 11:44:01,284 | INFO | Quality check passed
+2026-11-02 11:44:01,289 | INFO | History saved: 12 rows
+2026-11-02 11:44:01,289 | INFO | Finish
