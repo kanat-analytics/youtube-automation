@@ -2,5 +2,8 @@
   "channels": {
     "kanat": "UCINGv5BTWX46SKotKLWPn4Q"
   },
-  "base_folder": "data/"
+  "base_folder": "data/",
+  "spreadsheets": {
+    "kanat": "https://docs.google.com/spreadsheets/d/1s74PnEoENXHo3lJ1ewDi6FzUAOqL5GYmm47DF6FA0yg/edit?gid=0#gid=0"
+  }
 }
