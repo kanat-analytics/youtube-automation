@@ -7,6 +7,7 @@ from datetime import date
 
 import requests
 import pandas as pd
+import gspread
 
 # ---------- 2. Settings ----------
 API_KEY = os.environ.get('YOUTUBE_API_KEY')
@@ -155,6 +156,29 @@ def save_snapshot(df, folder):
     history = history.drop_duplicates(subset=['video_id', 'snapshot_date'], keep='last')
     history.to_csv(history_file, index=False)
     return history
+
+
+def send_to_sheets(df, sheet_url):
+    key_text = os.environ.get('GOOGLE_SHEETS_KEY')
+    if not key_text:
+        logging.warning('No Google key. Skip Google Sheets.')
+        return False
+
+    try:
+        key = json.loads(key_text)
+        client = gspread.service_account_from_dict(key)
+        sheet = client.open_by_url(sheet_url).sheet1
+
+        table = df.fillna('').astype(str)
+        rows = [table.columns.tolist()] + table.values.tolist()
+
+        sheet.clear()
+        sheet.update(rows, value_input_option='USER_ENTERED')
+        logging.info(f'Google Sheets updated: {len(df)} rows')
+        return True
+    except Exception as e:
+        logging.error(f'Google Sheets failed: {type(e).__name__}')
+        return False
 
 
 def run_pipeline(channel_id, folder):
