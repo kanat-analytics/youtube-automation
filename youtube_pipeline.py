@@ -220,8 +220,11 @@ def main():
     for name, channel_id in CONFIG['channels'].items():
         channel_folder = BASE_FOLDER + name + '/'
         logging.info(f'--- Channel: {name} ---')
-        run_pipeline_safe(channel_id, channel_folder)
-
+        history = run_pipeline_safe(channel_id, channel_folder)
+        # Send the history to Google Sheets
+        sheet_url = CONFIG.get('spreadsheets', {}).get(name)
+        if history is not None and sheet_url:
+            send_to_sheets(history, sheet_url)
 
 if __name__ == '__main__':
     main()
