@@ -1,17 +1,19 @@
-video_id,title,published_at,views,likes,comments,duration_sec,duration_min,snapshot_date
-UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-10-28
-Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-10-28
-UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-10-29
-Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-10-29
-UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-10-30
-Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-10-30
-UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-10-31
-Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-10-31
-UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-11-01
-Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-11-01
-UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-11-02
-Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-11-02
-UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-11-03
-Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-11-03
-UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-11-04
-Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-11-04
+video_id,title,published_at,views,likes,comments,duration_sec,duration_min,snapshot_date,subscribers
+UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-10-28,
+Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-10-28,
+UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-10-29,
+Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-10-29,
+UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-10-30,
+Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-10-30,
+UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-10-31,
+Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-10-31,
+UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-11-01,
+Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-11-01,
+UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-11-02,
+Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-11-02,
+UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-11-03,
+Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-11-03,
+UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-11-04,
+Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-11-04,
+UyD6Wfu5wh0,Ocean from above,2026-10-06 12:06:15+00:00,1,0,0,41,0.68,2026-11-05,0.0
+Wk-RTs0r8EA,Ocean waves,2026-10-06 12:03:17+00:00,2,0,0,8,0.13,2026-11-05,0.0
