@@ -180,6 +180,16 @@ def send_to_sheets(df, sheet_url):
         logging.error(f'Google Sheets failed: {type(e).__name__}')
         return False
 
+def get_subscribers(channel_id):
+    url = 'https://www.googleapis.com/youtube/v3/channels'
+    params = {'part': 'statistics', 'id': channel_id, 'key': API_KEY}
+    data = safe_get(url, params)
+    if not data or not data.get('items'):
+        logging.warning('Subscribers not available')
+        return None
+    count = data['items'][0]['statistics'].get('subscriberCount')
+    return int(count) if count else None
+
 
 def run_pipeline(channel_id, folder):
     logging.info(f'Start: channel {channel_id}')
@@ -194,7 +204,9 @@ def run_pipeline(channel_id, folder):
     raw = get_videos_table(ids)
     clean = clean_videos(raw)
     logging.info(f'Clean table: {len(clean)} rows')
-
+    subs = get_subscribers(channel_id)
+    clean['subscribers'] = subs
+    logging.info(f'Subscribers: {subs}')
     check_quality(clean)
 
     history = save_snapshot(clean, folder)
