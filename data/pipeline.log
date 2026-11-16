@@ -171,3 +171,12 @@
 2026-11-15 11:35:01,273 | INFO | History saved: 38 rows
 2026-11-15 11:35:01,273 | INFO | Finish
 2026-11-15 11:35:03,221 | INFO | Google Sheets updated: 38 rows
+2026-11-16 12:08:12,763 | INFO | --- Channel: kanat ---
+2026-11-16 12:08:12,763 | INFO | Start: channel UCINGv5BTWX46SKotKLWPn4Q
+2026-11-16 12:08:13,081 | INFO | Video IDs collected: 2
+2026-11-16 12:08:13,204 | INFO | Clean table: 2 rows
+2026-11-16 12:08:13,328 | INFO | Subscribers: 0
+2026-11-16 12:08:13,330 | INFO | Quality check passed
+2026-11-16 12:08:13,335 | INFO | History saved: 40 rows
+2026-11-16 12:08:13,335 | INFO | Finish
+2026-11-16 12:08:15,211 | INFO | Google Sheets updated: 40 rows
