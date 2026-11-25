@@ -252,3 +252,12 @@
 2026-11-24 14:20:51,059 | INFO | History saved: 56 rows
 2026-11-24 14:20:51,059 | INFO | Finish
 2026-11-24 14:20:52,967 | INFO | Google Sheets updated: 56 rows
+2026-11-25 13:39:40,589 | INFO | --- Channel: kanat ---
+2026-11-25 13:39:40,590 | INFO | Start: channel UCINGv5BTWX46SKotKLWPn4Q
+2026-11-25 13:39:40,962 | INFO | Video IDs collected: 2
+2026-11-25 13:39:41,073 | INFO | Clean table: 2 rows
+2026-11-25 13:39:41,180 | INFO | Subscribers: 0
+2026-11-25 13:39:41,182 | INFO | Quality check passed
+2026-11-25 13:39:41,188 | INFO | History saved: 58 rows
+2026-11-25 13:39:41,188 | INFO | Finish
+2026-11-25 13:39:43,321 | INFO | Google Sheets updated: 58 rows
